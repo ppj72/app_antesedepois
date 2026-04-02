@@ -6,9 +6,9 @@ import {
 
 // --- CONFIGURAÇÕES DE API ---
 const apiKey = "AIzaSyBpFg3Ti39MjO89B4hvFzB2myfYurWGuGw"; 
-const TEXT_MODEL_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${apiKey}`;
-const IMAGE_EDIT_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro-vision:generateContent?key=${apiKey}`;
-const TTS_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${apiKey}`;
+const TEXT_MODEL_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${apiKey}`;
+const IMAGE_EDIT_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${apiKey}`;
+const TTS_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${apiKey}`;
 
 // --- UTILITÁRIOS ---
 const fetchAPI = async (url, payload) => {
